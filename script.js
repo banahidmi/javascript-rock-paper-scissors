@@ -45,6 +45,7 @@ function computerPlay () {
 }
 function singleRound(userSelection,computerSelection) {
     let user = userSelection.toLowerCase();
+    user=user.trim();
     let computer = computerSelection;
     console.log("user:" + user + " and computer:" + computer);
     if(user === "rock"){
